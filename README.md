@@ -32,9 +32,11 @@ class Ganesh:
 - 🤖 Specializing in **Generative AI architectures**
 - ☁️ Building on **Microsoft Azure** — AI-900 certified
 - 🔬 Exploring **Transfer Learning, RAG pipelines & embeddings**
-- 🏆 Santander × Salesforce AI Hackathon participant
 
 <br clear="right"/>
+
+---
+
 
 ---
 
@@ -95,6 +97,9 @@ class Ganesh:
 [![AnimalNet-Pro](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=AnimalNet-Pro&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/AnimalNet-Pro)
 [![AirQuality Monitor](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=AirQuality_Monitor_DS&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/AirQuality_Monitor_DS)
 
+[![DiabetesInsight-RAG](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=DiabetesInsight-RAG&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/DiabetesInsight-RAG)
+[![Reasoning LLM Research](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=reasoning-llm-research&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/reasoning-llm-research)
+
 </div>
 
 ### 🐕 AnimalNet-Pro
@@ -111,6 +116,21 @@ class Ganesh:
 - ⚡ Caching layer for performance optimization
 - 🏥 Automated health recommendations based on **WHO thresholds**
 
+### 🩺 DiabetesInsight-RAG
+> Medical RAG system for Type 2 Diabetes — zero hallucinations, grounded in official sources (WHO · ADA · IMSS)
+
+- 🔗 Plexus pipeline: `PyPDFLoader` → `Recursive Splitter` → `HuggingFace Embeddings` → `FAISS VectorStore`
+- 🦙 Querying chain powered by **Llama 3.2** (local inference via Ollama) with strict medical safety prompts
+- 🛡️ Safety-first architecture designed to prevent medical misinformation at the retrieval level
+- 🧰 Stack: **LangChain · Ollama · Streamlit**
+
+### 🧠 Emergent Reasoning in LLMs
+> Research deep-dive on Transformer architectures and the emergence of complex behaviors through scaling laws
+
+- 🔍 Analysis of **Chain-of-Thought (CoT)** prompting vs. true causal reasoning — mapping the limits of shallow reasoning
+- 📐 Exploration of **inductive vs. deductive gaps** in modern language models
+- 📖 Research-oriented aesthetic bridging architectural theory and empirical observations on model intelligence
+
 ---
 
 ## 🎓 Certifications & Programs
@@ -121,7 +141,7 @@ class Ganesh:
 |:---:|:---|:---:|
 | 🏅 | Microsoft Azure AI Fundamentals (AI-900) | ✅ Passed |
 | 🏅 | Microsoft Azure AI Engineer (AI-102) | 🔜 Jun 2026 |
-| 🌟 | Santander × Salesforce — Intro to AI Engineering | 🔄 Active |
+| 🌟 | Salesforce — AI & Agentforce | 🔄 Active |
 
 </div>
 
@@ -143,6 +163,6 @@ class Ganesh:
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
-*"The best way to predict the future is to build it."*
+*"Any sufficiently advanced technology is indistinguishable from magic."* — Arthur C. Clarke
 
 </div>
