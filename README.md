@@ -102,6 +102,17 @@ class Ganesh:
 
 </div>
 
+
+### 🩺 DiabetesInsight-RAG
+> Medical RAG system for Type 2 Diabetes — zero hallucinations, grounded in official sources (WHO · ADA · IMSS)
+
+- 🔗 Plexus pipeline: `PyPDFLoader` → `Recursive Splitter` → `HuggingFace Embeddings` → `FAISS VectorStore`
+- 🦙 Querying chain powered by **Llama 3.3** (Groq) with strict medical safety prompts
+- 🛡️ Safety-first architecture designed to prevent medical misinformation at the retrieval level
+- 🧰 Stack: **LangChain · Groq · Streamlit**
+- 🌐 Live Demo: 👉 https://diabetesinsight-rag-jnv7zjh9qqtgmfat6nr7ke.streamlit.app/
+
+  
 ### 🐕 AnimalNet-Pro
 > Multiclass image classifier — **84% accuracy** on 120 dog breeds
 
@@ -116,13 +127,7 @@ class Ganesh:
 - ⚡ Caching layer for performance optimization
 - 🏥 Automated health recommendations based on **WHO thresholds**
 
-### 🩺 DiabetesInsight-RAG
-> Medical RAG system for Type 2 Diabetes — zero hallucinations, grounded in official sources (WHO · ADA · IMSS)
 
-- 🔗 Plexus pipeline: `PyPDFLoader` → `Recursive Splitter` → `HuggingFace Embeddings` → `FAISS VectorStore`
-- 🦙 Querying chain powered by **Llama 3.2** (local inference via Ollama) with strict medical safety prompts
-- 🛡️ Safety-first architecture designed to prevent medical misinformation at the retrieval level
-- 🧰 Stack: **LangChain · Ollama · Streamlit**
 
 ### 🧠 Emergent Reasoning in LLMs
 > Research deep-dive on Transformer architectures and the emergence of complex behaviors through scaling laws
