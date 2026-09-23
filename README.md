@@ -19,7 +19,7 @@ class Ganesh:
 - 🎓 CS Engineering student at **TecNM / ITM**
 - 🤖 Specializing in **Generative AI architectures**
 - ☁️ Building on **Microsoft Azure** — AI-900 certified
-- 🔬 Exploring **Transfer Learning, RAG pipelines & embeddings**
+
 
 <br clear="right"/>
 
