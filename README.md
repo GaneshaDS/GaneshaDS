@@ -27,19 +27,29 @@ class Ganesh:
 
 ## 🌟 Featured Projects
 
+### 📅 Cantera <sub>(private · in development)</sub>
+> Multi-business appointment booking platform with WhatsApp reminders — each business gets a public booking link and a private dashboard; end customers book without installing anything or creating an account
+
+- ⚛️ **Next.js · React · TypeScript · Supabase (Postgres + Auth)** · installable as a PWA
+- 🔐 Row-Level Security, HMAC-signed appointment links, env validation with zod
+- ✅ CI with lint, typecheck, formatting, build and a check that server secrets never reach the browser bundle
+- 🧪 Tested with Vitest · feature-branch workflow with PRs and documented technical decisions
+
 <div align="center">
 
 [![AnimalNet-Pro](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=AnimalNet-Pro&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/AnimalNet-Pro)
 [![AirQuality Monitor](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=AirQuality_Monitor_DS&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/AirQuality_Monitor_DS)
 
 [![DiabetesInsight-RAG](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=DiabetesInsight-RAG&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/DiabetesInsight-RAG)
-[![Reasoning LLM Research](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=reasoning-llm-research&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/reasoning-llm-research)
+[![AI Reasoning Research](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=AI-Reasoning-Research&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/AI-Reasoning-Research)
+
+[![boids](https://github-readme-stats.vercel.app/api/pin/?username=GaneshaDS&repo=boids&theme=tokyonight&hide_border=true)](https://github.com/GaneshaDS/boids)
 
 </div>
 
 
 ### 🩺 DiabetesInsight-RAG
-> Medical RAG system for Type 2 Diabetes — zero hallucinations, grounded in official sources (WHO · ADA · IMSS)
+> Medical RAG system for Type 2 Diabetes — answers grounded in official sources (WHO · ADA · IMSS), with page-level citations
 
 - 🔗 Plexus pipeline: `PyPDFLoader` → `Recursive Splitter` → `HuggingFace Embeddings` → `FAISS VectorStore`
 - 🦙 Querying chain powered by **Llama 3.3** (Groq) with strict medical safety prompts
@@ -63,6 +73,12 @@ class Ganesh:
 - 🏥 Automated health recommendations based on **WHO thresholds**
 
 
+
+### 🐦 boids
+> Flocking simulation (Reynolds' boids) with multiple species, rendered at 60 FPS
+
+- 🌳 Custom **quadtree** for fast neighbor lookups
+- 🎨 **Vue · Tailwind · PixiJS** with a live control panel to tune the steering rules
 
 ### 🧠 Emergent Reasoning in LLMs
 > Research deep-dive on Transformer architectures and the emergence of complex behaviors through scaling laws
